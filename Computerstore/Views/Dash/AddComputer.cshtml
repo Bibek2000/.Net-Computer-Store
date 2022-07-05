@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "AddComputer";
+}
+<html>
+<head>
+    <style>
+        .form-height{
+            height:100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-height col-8 justify-content-center d-flex align-items-center border border-shadow">
+        <form method="post">
+            <h3>Add Computer</h3>
+            <div class="mb-3">
+                <label for="lapmodel" class="form-label">Laptop Model</label>
+                <input type="number" class="form-control" id="lapmodel" placeholder="Model Name">
+            </div>
+            <div class="mb-3">
+                <label for="laptype" class="form-label">Laptop Type</label>
+                <select class="form-control" name="laptype">
+                    <option value="MacBook">MacBook</option>
+                    <option value="Dell">Dell</option>
+                    <option value="HP">HP</option>
+                    <option value="Asus">Asus</option>
+                    <option value="Lenovo">Lenovo</option>
+                    <option value="Toshiba">Toshiba</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="lapprice" class="form-label">Laptop Price</label>
+                <input type="number" class="form-control" id="lapprice">  
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-success">Add</button>
+        </form>
+    </div>
+</body>
+</html>

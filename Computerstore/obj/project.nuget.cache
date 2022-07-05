@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rz+OvtolgaFryMeb/kzCFLLUdh6aMftZWpuRDtjBy2K1WIZEc4JbmFXWLmP9gK/HvolfrVd6RD/pGImkRcBuFw==",
+  "success": true,
+  "projectFilePath": "/Users/bibekluitel/Projects/Computerstore/Computerstore/Computerstore.csproj",
+  "expectedPackageFiles": [
+    "/Users/bibekluitel/.nuget/packages/bootstrap/5.1.3/bootstrap.5.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
